@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-18T23:38:51Z" name="Default suite" finished-at="2022-01-18T23:40:59Z" duration-ms="127650">
+    <groups>
+      <group name="regration">
+        <method signature="GmailLoginTest.LoginWithCorrectEmailAndWrongPassword()[pri:3, instance:tests.GmailLoginTest@493dfb8e]" name="LoginWithCorrectEmailAndWrongPassword" class="tests.GmailLoginTest"/>
+        <method signature="GmailLoginTest.LoginWithCurrectYahooEmailID()[pri:5, instance:tests.GmailLoginTest@493dfb8e]" name="LoginWithCurrectYahooEmailID" class="tests.GmailLoginTest"/>
+        <method signature="GmailLoginTest.LoginWithGoogleConnectedAccountEmailID()[pri:6, instance:tests.GmailLoginTest@493dfb8e]" name="LoginWithGoogleConnectedAccountEmailID" class="tests.GmailLoginTest"/>
+        <method signature="GmailLoginTest.LoginWithNonExistingEmailTest()[pri:2, instance:tests.GmailLoginTest@493dfb8e]" name="LoginWithNonExistingEmailTest" class="tests.GmailLoginTest"/>
+        <method signature="GmailLoginTest.LoginWithSpecialCharacterEmail()[pri:4, instance:tests.GmailLoginTest@493dfb8e]" name="LoginWithSpecialCharacterEmail" class="tests.GmailLoginTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="GmailLoginTest.LoginWithCorrectEmailAndPasswordest()[pri:1, instance:tests.GmailLoginTest@493dfb8e]" name="LoginWithCorrectEmailAndPasswordest" class="tests.GmailLoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-01-18T23:38:51Z" name="Default test" finished-at="2022-01-18T23:40:59Z" duration-ms="127650">
+      <class name="tests.GmailLoginTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:38:51Z" name="beforeMethod" finished-at="2022-01-18T18:39:04Z" duration-ms="12662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginWithCorrectEmailAndPasswordest()[pri:1, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:39:04Z" name="LoginWithCorrectEmailAndPasswordest" finished-at="2022-01-18T18:39:16Z" duration-ms="12865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithCorrectEmailAndPasswordest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:39:16Z" name="afterMethod" finished-at="2022-01-18T18:39:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:39:16Z" name="beforeMethod" finished-at="2022-01-18T18:39:27Z" duration-ms="10771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginWithNonExistingEmailTest()[pri:2, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:39:27Z" name="LoginWithNonExistingEmailTest" finished-at="2022-01-18T18:39:33Z" duration-ms="6030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithNonExistingEmailTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:39:33Z" name="beforeMethod" finished-at="2022-01-18T18:39:44Z" duration-ms="10770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:39:33Z" name="afterMethod" finished-at="2022-01-18T18:39:33Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="LoginWithCorrectEmailAndWrongPassword()[pri:3, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:39:44Z" name="LoginWithCorrectEmailAndWrongPassword" finished-at="2022-01-18T18:39:57Z" duration-ms="13411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithCorrectEmailAndWrongPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:39:57Z" name="beforeMethod" finished-at="2022-01-18T18:40:13Z" duration-ms="15070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:39:57Z" name="afterMethod" finished-at="2022-01-18T18:39:57Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="LoginWithSpecialCharacterEmail()[pri:4, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:40:13Z" name="LoginWithSpecialCharacterEmail" finished-at="2022-01-18T18:40:17Z" duration-ms="4213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithSpecialCharacterEmail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:40:17Z" name="afterMethod" finished-at="2022-01-18T18:40:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:40:17Z" name="beforeMethod" finished-at="2022-01-18T18:40:29Z" duration-ms="12067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginWithCurrectYahooEmailID()[pri:5, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:40:29Z" name="LoginWithCurrectYahooEmailID" finished-at="2022-01-18T18:40:33Z" duration-ms="3956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithCurrectYahooEmailID -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:40:33Z" name="afterMethod" finished-at="2022-01-18T18:40:33Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:40:33Z" name="beforeMethod" finished-at="2022-01-18T18:40:44Z" duration-ms="10783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginWithGoogleConnectedAccountEmailID()[pri:6, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:40:44Z" name="LoginWithGoogleConnectedAccountEmailID" finished-at="2022-01-18T18:40:59Z" duration-ms="15025" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at tests.GmailLoginTest.LoginWithGoogleConnectedAccountEmailID(GmailLoginTest.java:197)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithGoogleConnectedAccountEmailID -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.GmailLoginTest@493dfb8e]" started-at="2022-01-18T18:40:59Z" name="afterMethod" finished-at="2022-01-18T18:40:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.GmailLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
