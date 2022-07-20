@@ -5,7 +5,7 @@ public class TestBaseUtill {
 	public static long PAGE_LOAD_TIME_OUT = 20;
 	public static long IMPLICIT_WAIT = 20;
 	
-	public static String GMAIL_MAIN_PAGE_TITLE = "Gmail: Free, Private & Secure Email | Google Workspace";
+	public static String GMAIL_MAIN_PAGE_TITLE = "Gmail: Private and secure email at no cost | Google Workspace";
 	public static String GMAIL_SIGNIN_PAGE_TITLE = "Gmail";
 	
 	Xls_Reader d = new Xls_Reader("C:\\Users\\umesh\\Desktop\\ManualTesting-Umesh.xlsx");
