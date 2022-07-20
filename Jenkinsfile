@@ -10,7 +10,7 @@ agent any
     stage('Test'){
       steps{
         echo "Testing the code ....."
-        bat "mvn test"
+        bat "mvn install"
       }
     }
     stage('Compile'){
