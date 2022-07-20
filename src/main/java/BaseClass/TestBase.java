@@ -51,8 +51,8 @@ public class TestBase {
 
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(TestBaseUtill.PAGE_LOAD_TIME_OUT,TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(TestBaseUtill.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(TestBaseUtill.PAGE_LOAD_TIME_OUT));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestBaseUtill.IMPLICIT_WAIT));
 		
 	}
 	
